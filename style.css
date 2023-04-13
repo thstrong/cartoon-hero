@@ -40,7 +40,7 @@ img.big-image {
 
 .caption {
     font-size: 16px;
-    color: lightgrey;
+    color: rgb(235, 102, 102);
     font-style: italic;
 }
 
@@ -68,5 +68,21 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin: 0 5px;
+
+}
+
+@media (max-width:576px) {
+
+    header img {
+
+        width: 210px;
+        height: 140px;
+        border: 12px solid #edf6f9;
+
+    }
+
+    img.big-image {
+        max-width: 50%;
+    }
 
 }
